@@ -8,5 +8,6 @@ pkgs.mkShell {
 
   buildInputs = [
     gg
+    patchelf
   ];
 }
